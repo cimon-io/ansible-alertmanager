@@ -48,7 +48,7 @@ MemoryDenyWriteExecute=true
 PrivateTmp=true
 ProtectHome=true
 RemoveIPC=true
-RestrictSUIDSGID=true
+#RestrictSUIDSGID=true
 
 {% if alertmanager_systemd_version | int >= 232 %}
 PrivateUsers=true
